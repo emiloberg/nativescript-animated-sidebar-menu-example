@@ -1,0 +1,27 @@
+<Page xmlns="http://www.nativescript.org/tns.xsd" loaded="loaded">
+
+    <AbsoluteLayout>
+
+        <StackLayout id="maincontent" left="0" top="0">
+            <Button text="Show menu" tap="showMenuTap" />
+            <Label text="ABC" />
+            <Label text="DEF" />
+            <Label text="GHI" />
+            <Label text="JKL" />
+            <Label text="MNO" />
+        </StackLayout>
+
+        <GridLayout columns="80, *" rows="*" left="0" top="0" id="menuwrapper">
+            <StackLayout col="0" tap="hideMenuTap"></StackLayout>
+            <StackLayout col="1" cssClass="mainmenu">
+                <Button text="Menu item" cssClass="mainmenu--button" />
+                <Button text="Menu item" cssClass="mainmenu--button" />
+                <Button text="Menu item" cssClass="mainmenu--button" />
+                <Button text="---------" cssClass="mainmenu--button" />
+                <Button text="Click on the side of the menu to close" cssClass="mainmenu--button" />
+            </StackLayout>
+        </GridLayout>
+
+    </AbsoluteLayout>
+
+</Page>

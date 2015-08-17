@@ -1,0 +1,8 @@
+{
+	"nativescript": {
+		"id": "org.nativescript.sidebar",
+		"tns-ios": {
+			"version": "1.2.1"
+		}
+	}
+}

@@ -1,0 +1,15 @@
+﻿Page {
+    background-color: #ffffff;
+}
+
+.mainmenu {
+    background-color: #000000;
+}
+
+.mainmenu--button {
+    color: #ffffff;
+}
+
+.mainmenu--helptext {
+	font-size: 8;
+}
